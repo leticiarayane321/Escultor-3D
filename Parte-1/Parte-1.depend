@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1763142147 source:c:\users\leticia rayane\onedrive\햞ea de trabalho\prova 02\parte-1\main.cpp
+	<iostream>
+	"sculptor.h"
+
+1764122189 c:\users\leticia rayane\onedrive\햞ea de trabalho\prova 02\parte-1\sculptor.h
+
+1763141350 c:\users\leticia rayane\onedrive\햞ea de trabalho\prova 02\parte-1\voxel.h
+
+1763143169 source:c:\users\leticia rayane\onedrive\햞ea de trabalho\prova 02\parte-1\sculptor.cpp
+	"sculptor.h"
+	<iostream>
+	<fstream>
+	<cmath>
+	<cstdlib>
+

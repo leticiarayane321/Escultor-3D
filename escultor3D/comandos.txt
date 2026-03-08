@@ -1,0 +1,40 @@
+dim 100 100 100
+
+# Chao (Verde)
+putbox 0 99 0 99 0 0 0.0 0.5 0.0 1.0
+
+# Muralhas do Castelo (Cinza)
+putbox 10 89 10 89 1 15 0.6 0.6 0.6 1.0
+# Oco do castelo (Patio interno)
+cutbox 14 85 14 85 1 20
+
+# As Quatro Torres (Cinza mais escuro)
+# Torre 1 (Esquerda Tras)
+putbox 8 18 8 18 1 25 0.5 0.5 0.5 1.0
+# Torre 2 (Direita Tras)
+putbox 81 91 8 18 1 25 0.5 0.5 0.5 1.0
+# Torre 3 (Esquerda Frente)
+putbox 8 18 81 91 1 25 0.5 0.5 0.5 1.0
+# Torre 4 (Direita Frente)
+putbox 81 91 81 91 1 25 0.5 0.5 0.5 1.0
+
+# Portao Principal (Madeira)
+# Fura a parede
+cutbox 45 55 10 15 1 10
+# Coloca a porta recuada
+putbox 45 55 12 13 1 10 0.4 0.2 0.0 1.0
+
+# Esfera Magica no Centro (Azul Transparente)
+putsphere 50 50 10 5 0.0 0.0 1.0 0.6
+
+# Arvore 1 (Lado Esquerdo - Tronco + Copa Redonda)
+# Tronco Marrom
+putbox 1 5 48 52 0 10 0.4 0.2 0.0 1.0
+# Folhas Verdes (Esfera)
+putsphere 3 50 14 6 0.0 0.8 0.0 1.0
+
+# Arvore 2 (Lado Direito - Tronco + Copa Oval)
+# Tronco Marrom
+putbox 94 98 48 52 0 10 0.4 0.2 0.0 1.0
+# Folhas Verdes (Elipsoide)
+putellipsoid 96 50 15 5 5 8 0.0 0.8 0.0 1.0

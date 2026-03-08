@@ -1,0 +1,10 @@
+release/main.o
+release/sculptor.o
+release/putvoxel.o
+release/cutvoxel.o
+release/putbox.o
+release/cutbox.o
+release/putsphere.o
+release/cutsphere.o
+release/putellipsoid.o
+release/cutellipsoid.o
